@@ -13,14 +13,14 @@ long phoneNumber;
     @Override
     public String toString() {
         return "Contacts{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", address='" + address + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", email='" + email + '\'' +
-                ", zipCode=" + zipCode +
-                ", phoneNumber=" + phoneNumber +
+                "\n firstName='" + firstName + '\''  +
+                "\n lastName='" + lastName + '\'' +
+                "\n address='" + address + '\'' +
+                "\n city='" + city + '\'' +
+                "\n state='" + state + '\'' +
+                "\n email='" + email + '\'' +
+                "\n zipCode=" + zipCode +
+                "\n phoneNumber=" + phoneNumber +
                 '}';
     }
 }
