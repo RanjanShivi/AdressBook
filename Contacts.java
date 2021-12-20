@@ -5,9 +5,10 @@ String firstName;
 String lastName;
 String address;
 String city;
+String state;
 String email;
-int zipcode;
-int phoneNumber;
+int zipCode;
+long phoneNumber;
 
     @Override
     public String toString() {
@@ -16,9 +17,11 @@ int phoneNumber;
                 ", lastName='" + lastName + '\'' +
                 ", address='" + address + '\'' +
                 ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
                 ", email='" + email + '\'' +
-                ", zipcode=" + zipcode +
+                ", zipCode=" + zipCode +
                 ", phoneNumber=" + phoneNumber +
                 '}';
     }
 }
+
