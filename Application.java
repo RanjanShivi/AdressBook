@@ -1,5 +1,6 @@
 package com;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Application {
@@ -23,6 +24,8 @@ public class Application {
                 addContact();
                 break;
             case 2:
+                List doctorList = contactRepo.getContactList();
+                userInterface.printAllContact(doctorList);
                 break;
             case 3:
                 break;

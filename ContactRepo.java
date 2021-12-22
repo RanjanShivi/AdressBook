@@ -21,4 +21,9 @@ public class ContactRepo {
         contactList.add(contact);
     }
 
+    List getContactList(){
+        return contactList;
+    }
+
+
 }
