@@ -28,6 +28,10 @@ public class Application {
                 userInterface.printAllContact(doctorList);
                 break;
             case 3:
+                System.out.println("Enter the phone number of the person whose contact you want to delete");
+                long num = scanner.nextInt();
+                Contacts contact = contactRepo.getContact(num);
+                contactRepo.remove(contact);
                 break;
             case 4:
                 break;

@@ -25,5 +25,19 @@ public class ContactRepo {
         return contactList;
     }
 
+    void remove(Contacts contact){
+
+        contactList.remove(contact);
+    }
+
+    Contacts getContact(long num) {
+        for (int i = 0; i < contactList.size(); i++) {
+            if (num == contactList.get(i).phoneNumber) {
+                return contactList.get(i);
+            }
+        }
+        return null;
+    }
+
 
 }
